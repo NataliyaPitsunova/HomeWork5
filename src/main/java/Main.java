@@ -13,7 +13,6 @@ public class Main {
                 "nastyaAron@mail.ru","89154563219",70000,42);
         PersonArr[4]=new Person("Кулемин Игорь Витальевич","лаборант",
                 "kuleck@mail.ru","89093216549",40000,21);
-
         for (int i=0; i<5; i++){
             if (PersonArr[i].getAge()>=40){
                 PersonArr[i].info();
